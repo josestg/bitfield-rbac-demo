@@ -1,0 +1,6 @@
+github.com/golang-jwt/jwt/v5 v5.0.0 h1:1n1XNM9hk7O9mnQoNBGolZvzebBQ7p93ULHRc28XJUE=
+github.com/golang-jwt/jwt/v5 v5.0.0/go.mod h1:pqrtFR0X4osieyHYxtmOUWsAWrfe1Q5UVIyoH402zdk=
+github.com/josestg/bitfield v1.0.0 h1:sfRSnkJ2emMozKzloLywLViTxCtOSj+8AUUgvVbw8Mg=
+github.com/josestg/bitfield v1.0.0/go.mod h1:z+Ky+CWrv3+jIWcomoIXO2XXAJ5TFKu3AE/o+9lZGEo=
+github.com/julienschmidt/httprouter v1.3.0 h1:U0609e9tgbseu3rBINet9P48AI/D3oJs4dN7jwJOQ1U=
+github.com/julienschmidt/httprouter v1.3.0/go.mod h1:JR6WtHb+2LUe8TCKY3cZOxFyyO8IZAc4RVcycCCAKdM=

@@ -1,0 +1,34 @@
+### Generate a token
+POST http://localhost:8080/token
+Content-Type: application/json
+
+{
+  "permissions": [0, 1, 2, 52, 53]
+}
+
+
+### Create a new user
+POST http://localhost:8080/users
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTU5MDU0MzgsInBlcm1pc3Npb25zIjpbMCwxLDJdfQ.pV3T00JgFwFexM-JHTePftuS3UMO3kMA2NHZYNivwkI
+
+{
+  "username": "test",
+  "password": "test"
+}
+
+
+### Create a new role
+POST http://localhost:8080/roles
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTU5MDU2MzMsInBlcm1pc3Npb25zIjpbMCwxLDIsNTIsNTNdfQ.LEEuDKjFNdOkyCVzvurZq6foQmhLtnjY2IQwQSM0D3o
+
+{
+  "username": "test",
+  "password": "test"
+}
+
+### See Emails
+GET http://localhost:8080/emails
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTU5MDU2MzMsInBlcm1pc3Npb25zIjpbMCwxLDIsNTIsNTNdfQ.LEEuDKjFNdOkyCVzvurZq6foQmhLtnjY2IQwQSM0D3o
